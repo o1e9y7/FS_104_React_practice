@@ -3,6 +3,7 @@ import Greetings from "./Greetings/Greetings";
 import Header from "./Header/Header";
 import Message from "./Message/Message";
 import WelcomeSection from "./WelcomeSection/WelcomeSection";
+import '../index.css';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     return (
         <>
             <Header />
+            <h2 className="title">Hello styles</h2>
             <Message author='Petro' message='Hello!' />
             <Message author='Stepan' message='Bonjoure!'/>
             <Message author='Olena' message ='Візьму котика у добрі руки'/>            

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.logo {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.title {
+    color:green;
+    
+}

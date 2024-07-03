@@ -1,0 +1,20 @@
+.title {
+    color: red;
+    font-size: 32px;
+    /* можна hover розгорнути безпосередньо всередині селектору стидізації обєкта*/
+    &:hover{
+        font-size: 48px;
+    }
+/* Якщо є span то шрифт буде жирним */
+    span{
+        font-weight: bold;
+    }
+}
+
+.red {
+    color:red; 
+}
+
+.green {
+    color: green;
+}
