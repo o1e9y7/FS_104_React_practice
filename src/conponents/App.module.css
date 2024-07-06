@@ -1,0 +1,27 @@
+.box {
+  box-shadow: 0 0 5px 5px rgb(31, 246, 246);
+  width: 200px;
+  height: 200px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.red {
+  /* Всі налаштування які є в селекторі .box{}
+     наслідує селектор red і додає свою особливість
+     це дозволяє спільні стилі записати один раз і за
+     допомогою властивості composes передати їх іншому елементу */
+  composes: box;
+  background-color: red;
+}
+
+.black {
+  composes: box;
+  background-color: black;
+  width: 400px;
+}
